@@ -57,7 +57,7 @@ function holdTheButton(e){
 	document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
 
 	//Check if the player is won already
-	if(scores[activePlayer] >= 10){
+	if(scores[activePlayer] >= 100){
 
 		document.querySelector('#name-' + activePlayer).textContent = 'Winner!';
 		document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
