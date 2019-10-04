@@ -46,6 +46,24 @@ body {
 }
 
 
+.game-rules-wrapper.clearfix {
+    width: 1000px;
+    margin: auto;
+    background: white;
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+}
+.game-rules h2 {
+    margin-bottom: 15px;
+}
+.game-rules ul li {
+    list-style: none;
+    color: #000;
+    line-height: 1.2em;
+}
+
 
 /**********************************************
 *** PLAYERS
