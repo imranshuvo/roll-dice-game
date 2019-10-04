@@ -116,5 +116,6 @@ function init(){
 	document.querySelector('.player-' + activePlayer + '-panel').classList.remove('winner');
 	document.querySelector('.player-' + otherPlayer + '-panel').classList.remove('winner');
 	document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
+	document.querySelector('.player-' + otherPlayer + '-panel').classList.remove('active');
 	document.querySelector('.player-' + activePlayer + '-panel').classList.add('active');
 }
